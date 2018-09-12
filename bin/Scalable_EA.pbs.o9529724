@@ -1,0 +1,18 @@
+openmpi/1.10.2(3):ERROR:150: Module 'openmpi/1.10.2' conflicts with the currently loaded module(s) 'openmpi/1.6.3'
+openmpi/1.10.2(3):ERROR:102: Tcl command execution failed: source /opt/Modules/extensions/extensions.tcl
+
+Run: 1, Time: 8.842 s 
+Total Elapsed time: 8395.121453 seconds
+
+======================================================================================
+                  Resource Usage on 2018-08-27 00:37:58:
+   Job Id:             9529724.r-man2
+   Project:            c38
+   Exit Status:        0
+   Service Units:      7.01
+   NCPUs Requested:    1                      NCPUs Used: 1               
+                                           CPU Time Used: 02:19:56                                   
+   Memory Requested:   128.0GB               Memory Used: 11.49MB         
+   Walltime requested: 05:00:00            Walltime Used: 02:20:09        
+   JobFS requested:    100.0GB                JobFS used: 41.0B           
+======================================================================================

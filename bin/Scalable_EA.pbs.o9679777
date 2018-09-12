@@ -1,0 +1,29 @@
+openmpi/1.10.2(3):ERROR:150: Module 'openmpi/1.10.2' conflicts with the currently loaded module(s) 'openmpi/1.6.3'
+openmpi/1.10.2(3):ERROR:102: Tcl command execution failed: source /opt/Modules/extensions/extensions.tcl
+
+[r3586:30825] *** Process received signal ***
+[r3586:30825] Signal: Segmentation fault (11)
+[r3586:30825] Signal code: Address not mapped (1)
+[r3586:30825] Failing at address: (nil)
+[r3586:30825] [ 0] /lib64/libpthread.so.0(+0xf7e0) [0x7fb109f337e0]
+[r3586:30825] [ 1] ./Scalable_EA() [0x409460]
+[r3586:30825] [ 2] ./Scalable_EA() [0x40d0d8]
+[r3586:30825] [ 3] /lib64/libc.so.6(__libc_start_main+0xfd) [0x7fb109baed1d]
+[r3586:30825] [ 4] ./Scalable_EA() [0x402d09]
+[r3586:30825] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 30825 on node r3586 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+======================================================================================
+                  Resource Usage on 2018-08-31 07:49:17:
+   Job Id:             9679777.r-man2
+   Project:            c38
+   Exit Status:        139 (Linux Signal 11 SIGSEGV Segmentation violation)
+   Service Units:      6.94
+   NCPUs Requested:    1                      NCPUs Used: 1               
+                                           CPU Time Used: 02:18:41                                   
+   Memory Requested:   128.0GB               Memory Used: 11.5MB          
+   Walltime requested: 05:00:00            Walltime Used: 02:18:46        
+   JobFS requested:    100.0GB                JobFS used: 41.0B           
+======================================================================================
